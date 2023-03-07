@@ -1,3 +1,6 @@
+#include <Windows.h>
+#include <cstdint>
+
 std::uintptr_t trustcheck_1 = 0x16B0E32 + (std::uintptr_t)GetModuleHandleA(NULL);
 std::uintptr_t trustcheck_2 = 0xF99FB1 + (std::uintptr_t)GetModuleHandleA(NULL);
 
